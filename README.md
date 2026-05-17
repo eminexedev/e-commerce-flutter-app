@@ -1,15 +1,12 @@
 # E-Commerce Flutter App
 
-## Proje Repository URL
-
-https://github.com/eminexedev/e-commerce-flutter-app
-
 ## Kısa Açıklama
 
 Bu proje, Flutter ile geliştirilmiş basit bir e-ticaret uygulamasıdır.
 Uygulamada kullanıcı girişi, ürün listeleme, ürün detayına gitme,
 sepete ürün ekleme, sepetten ürün silme ve toplam tutar görüntüleme
 özellikleri bulunur.
+Not: Staj döneminde yapılan uygulama arayüzü referans alınmıştır ek olarak haberler sayfasını ekledim.
 
 ## Kullanılan Flutter Sürümü
 
