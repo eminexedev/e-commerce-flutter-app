@@ -16,7 +16,7 @@ class ProductDetailsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: const BackButton(),
-        title: const Text('Back'),
+        title: const Text('Ürün Detayı'),
         centerTitle: false,
         elevation: 0,
         surfaceTintColor: Colors.transparent,
@@ -79,7 +79,7 @@ class ProductDetailsPage extends StatelessWidget {
               ),
               const SizedBox(height: 16.0),
               Text(
-                'Description',
+                'Ürün detayları',
                 style: Theme.of(
                   context,
                 ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),

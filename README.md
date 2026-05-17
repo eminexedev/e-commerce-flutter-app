@@ -4,37 +4,50 @@
 
 https://github.com/eminexedev/e-commerce-flutter-app
 
-## Kisa Aciklama
+## Kısa Açıklama
 
-Bu proje, Flutter ile gelistirilmis basit bir e-ticaret uygulamasidir.
-Uygulamada kullanici girisi, urun listeleme, urun detayina gitme,
-sepete urun ekleme, sepetten urun silme ve toplam tutar goruntuleme
-ozellikleri bulunur.
+Bu proje, Flutter ile geliştirilmiş basit bir e-ticaret uygulamasıdır.
+Uygulamada kullanıcı girişi, ürün listeleme, ürün detayına gitme,
+sepete ürün ekleme, sepetten ürün silme ve toplam tutar görüntüleme
+özellikleri bulunur.
 
-## Kullanilan Flutter Surumu
+## Kullanılan Flutter Sürümü
 
 - Flutter: 3.38.1 (stable)
 - Dart: 3.10.0
 
-## Calistirma Adimlari
+## Çalıştırma Adımları
 
-1. Projeyi klonlayin:
+1. Projeyi klonlayın:
 
 	git clone https://github.com/eminexedev/e-commerce-flutter-app.git
 
-2. Proje klasorune girin:
+2. Proje klasörüne girin:
 
 	cd e-commerce-flutter-app
 
-3. Bagimliliklari yukleyin:
+3. Bağımlılıkları yükleyin:
 
 	flutter pub get
 
-4. Uygulamayi calistirin:
+4. Uygulamayı çalıştırın:
 
 	flutter run
 
-## Notlar
+## Proje Yapısı
+- `lib/`: Uygulamanın ana kodlarını içerir.
+  - `main.dart`: Uygulamanın ana dosyası.
+  - `screens/`: Farklı ekranları içerir (giriş, ürün listesi, ürün detay, sepet).
+  - `models/`: Veri modellerini icerir (ürün, kullanıcı, sepet).
+  - `services/`: Veri işleme ve API ile iletişim kodlarını icerir.
+    - `widgets/`: Tekrar kullanilabilir widget'ları icerir.
+- `assets/`: Resimler ve diğer statik dosyalar.
+- `pubspec.yaml`: Proje bağımlılıklarını ve varlıklarını tanımlar.
 
-- Repository public olacak sekilde paylasilmalidir.
-- Proje calisir durumdadir ve bu README dosyasini icerir.
+## Özellikler
+- Kullanıcı girişi ve kayıt olma
+- Ürün listeleme ve arama
+- Ürün detaylarını görüntüleme
+- Sepete ürün ekleme ve silme
+- Toplam tutar görüntüleme
+
